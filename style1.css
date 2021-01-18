@@ -1,0 +1,188 @@
+body{
+	margin: 0;
+	padding: 0;
+	background: black;
+	width: 100%;
+	margin: 0 auto;
+	font-style: Arial,sans-serif,poppins;
+}
+/*Header Section*/
+header{
+	height: 100px;
+		border-bottom: 5px solid darkred;
+}
+ul{
+	margin: 0;
+	padding: 0;
+}
+nav{
+	float: right;
+	margin-right: 50px;
+
+}
+#logo{
+	float: left;
+	margin-top: 10px;
+	padding: 0 60px 0 60px;
+	font-size: 20px;
+}
+li{
+	margin-top: 30px;
+	font:25px/1.5 white;
+	list-style: none;
+	float: left;
+	padding: 0 20px 0 20px;
+
+}
+li a{
+	text-decoration: none;
+	border: 2px solid violet;
+	color: white;
+}
+#port{
+	color: darkorange;
+}
+#folio{
+	color:brown;
+}
+nav ul li a:hover{
+	color: #3339FF;
+}
+/*Main Section*/
+.main{
+	height: 250px;
+	border-bottom: 5px solid darkred;
+}
+#info{
+	float: left;
+	margin-top: 40px;
+}
+h2{
+	margin-left: 60px;
+	text-transform: uppercase;
+	text-decoration: pointer;
+}
+.button{
+	margin-left: 60px;
+	background-color: yellow;
+	color: black;
+	text-transform: uppercase;
+	height: 30px;
+	text-decoration: none;
+
+}
+
+.hi, .hi1, .welcome{
+	color: #33A2FF;
+}
+.hi:hover{
+	color: #FF3377;
+}
+.hi1:hover{
+	color: #33FF39;
+}
+.welcome:hover{
+	color:#FF3633;
+}
+.button:hover{
+	color:#fff;
+	background-color: #4300B7;
+	transition: 0.5s ease-out;
+	animation: ;
+}
+/*AboutMe*/
+.About{
+	margin: 0;
+	padding: 0;
+}
+.mere{
+	margin-left: 60px;
+	float: left;
+	margin-top: 50px;
+	font-size: 25px;
+	text-decoration: none;
+	color: white;
+}
+p{
+	padding: 10px 0 60px 0;
+	margin-left: 60px;
+	float: left;
+	color: white;
+	text-decoration: none;
+	font-size: 30px;
+	clear: both;
+	border-bottom: 5px solid darkred;
+}
+#Contact{
+	clear: both;
+	height: 300px;
+	border-bottom: 5px solid darkred;
+}
+h3{
+	margin-left: 60px;
+	float: left;
+	margin-top: 50px;
+	font-size: 25px;
+	text-decoration: none;
+	color: white;
+}
+h4{
+	margin-left: 60px;
+	float: left;
+	margin-top: 0px;
+	font-size: 25px;
+	text-decoration: none;
+	color: white;
+}
+form{
+	clear: both;
+	margin-left: 60px;
+	float: left;
+	margin-top: 10px;
+	font-size: 25px;
+	text-decoration:none;
+	color: #fff;
+}
+input{
+	float: right;
+}
+.Submit{
+	margin-left: 0px;
+	background-color: yellow;
+	color: black;
+	text-transform: uppercase;
+	height: 30px;
+	text-decoration: none;
+	margin-bottom: 50px;
+}
+footer .copy{
+	margin-left: 60px;
+	clear: both;
+	font-size: 30px;
+	color: white;
+	padding: 40px 0 40px 0;
+	float: left;
+	text-decoration: none;
+}
+#input1{
+	margin-left: 10px;
+}
+#input2{
+	margin-left: 10px;
+}
+.form1,.form2{
+	text-transform: uppercase;
+	padding: 2px 0 8px 0;
+	font-size: 20px;
+}
+#image{
+	height: 250px;
+	margin: 45px 60px;
+}
+img{
+	margin: 0;
+	float: right;
+	height: 200px;
+	width: 200px;
+	padding: 0px 20px 40px 20px;
+}
